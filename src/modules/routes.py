@@ -36,7 +36,7 @@ def add_ref():
             return render_template(
                 "create_reference_article.html",
                 error=True,
-                error_message="Invalid optional details"
+                error_msg="Invalid optional details"
             )
 
         if len(author) > 100:
